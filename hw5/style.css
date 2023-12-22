@@ -1,0 +1,61 @@
+  .header {
+    background-color: #fffcb0;
+    
+  }
+
+  .container {
+    background-color: #b0c6ff;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .img {
+    height: 250px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .card {
+    max-width: 250px;
+    display: inline-block;
+    padding: 4px;
+    margin: 23px;
+    background-color: white;
+  }
+  .card-text {
+    text-align: center;
+    font-size: medium;
+    font-family: Tahoma;
+  }
+  .h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Tahoma;
+  }
+  
+  .card-link {
+    display: inline-block;
+    background: #6177eb;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 1px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+    min-height:30px; 
+    min-width: 120px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  .h2 {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: medium;
+    font-weight: bold;
+  }
