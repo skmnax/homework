@@ -1,0 +1,386 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  font-family: Potta One;
+font-size: 38px;
+font-weight: 400;
+line-height: 55px;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
+.nav {
+  font-family: 'Open Sans', system-ui;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav li {
+   padding-right: 1rem;
+   color: #697390;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: -0.035em;
+   text-align: center;
+}
+
+.img {
+  width: 22px;
+  height: 22px;
+} 
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+
+}
+
+.banner-img {
+  max-width: 625px;
+  max-height: 450px;
+}
+
+.banner_description {
+  margin-left: 4rem;
+}
+
+.banner h1 {
+font-family: 'Federo', sans-serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 60px;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+
+.banner_button {
+background: #434343;
+color: #fff;
+width: 122px;
+height: 38px;
+text-transform: uppercase;
+}
+
+.best_items h2 {
+font-family: 'Federo', sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 50px;
+text-align: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 255px;
+  height: 342px;
+  box-shadow: 0px 0px 1px 1px #0000001A;
+  position: relative;
+  margin-bottom: 2rem;
+  
+}
+
+.card_bottom_row {
+  width: 355px;
+}
+
+
+.badges {
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  width: 75px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    
+}
+
+.badge {
+  width: 75px;
+  height: 28px;
+  background: #F29731;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+
+}
+
+.badge_sale {
+  background: #9E0B0F;
+}
+
+.card_nav {
+  position: absolute;
+  right: 0;
+  top: 175px;
+
+}
+
+.card_nav_img {
+  border: 0.2px solid #c3bebe;
+  width: 27px;
+  height: 27px;
+  margin-bottom: 5px;
+  padding: 3px;
+
+}
+
+.card_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+
+}
+
+.card_footer h3 {
+Font-family: 'Open Sans', system-ui;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+
+}
+
+.card_footer p {
+font-family: 'Federo', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 50px;
+color: #8C8C8C;
+margin-top: -0.5rem;
+}
+
+.deal_img {
+  max-width: 356px;
+  max-height: 227px;
+  
+}
+
+.deal {
+  background: #F6F6F6;
+  width: 100%;
+  height: 594px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal h4 {
+  font-family: 'Federo', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-top: 2rem;
+    
+  }
+
+  .lorem {
+    Font-family: 'Open Sans', system-ui;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .deal_button {
+    background: #8096BC;
+    color: #fff;
+    width: 204px;
+    height: 38px;
+    text-transform: uppercase;
+  } 
+
+.shop_button {
+  background: #434343;
+  color: #fff;
+  width: 122px;
+  height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.deal_description {
+  margin-left: 4rem;
+  width: 436px;
+}
+
+.circle {
+  width: 523px;
+  height: 523px;
+  background: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  position: relative;
+  margin-bottom: 2rem;
+  
+}
+
+.deal_card_wrap {
+  background: #fff;
+  width: 87px;
+  height: 87px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.deal_card_img {
+  max-height: 65px;
+  max-width: 100%;
+  height: auto;
+}
+
+.text_oc{
+  color: #78A2CA;
+}
+
+.categories li {
+  /* padding-right: 1rem; */
+  color: #697390;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+.categories {
+  font-family: 'Open Sans', system-ui;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  border: 0.5px solid #E2E0DB;
+}
+
+.categories_card {
+  width: 148px;
+  height: 148px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories_card:hover {
+  background: #FBF9F3;
+
+}
+
+.categories_img {
+  max-height: 100%;
+  width: auto;
+}
+
+.categories_head {
+
+}
+
+.trending {
+  margin-bottom: 5rem;
+}
+
+.footer_main {
+  background: #c5c3c3;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 4rem;
+  height: 506px;
+}
+.footer_main .logo {
+  margin-bottom: 2rem;
+
+}
+
+.footer_lists {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100%;
+  font-family: 'Open Sans', system-ui;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  padding-bottom: 5rem;
+ 
+}
+ 
+.footer_list h3 {
+  font-size: 24px;
+}
+
+.footer_list li {
+  display: flex;
+  align-items: center;
+}
+
+.footer_list .icon {
+  width: 21.87px;
+  height: 21.87px;
+  margin-right: 1rem;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 52px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #7A7A7A;
+  margin-top: 2rem;
+  
+    
+}
